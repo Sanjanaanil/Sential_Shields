@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🛡️ Sentinel Shield  
+### Intelligent Behavioral Deception System for Proactive Cyber Defense
 
-## Project info
+Sentinel Shield is an advanced cybersecurity system designed to detect suspicious user behavior and proactively respond by redirecting potential attackers into a controlled decoy environment. It combines behavioral analysis, deception techniques, and real-time monitoring to enhance system security.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🔐 Behavioral-based anomaly detection  
+- 🧠 Intelligent attacker identification  
+- 🪤 Decoy (honeypot) dashboard for attackers  
+- 📊 Admin panel with real-time analytics  
+- ⚡ Detection of brute-force and rapid login attempts  
+- 📝 Logging and tracking of attacker activities  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🎯 Objective
 
-Changes made via Lovable will be committed automatically to this repo.
+To build a proactive cybersecurity system that identifies malicious users based on behavior and isolates them in a deceptive environment to prevent real system damage.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 How It Works
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. User attempts login  
+2. System analyzes behavior (login frequency, patterns, etc.)  
+3. If suspicious → redirect to **Decoy Dashboard**  
+4. If legitimate → allow access to **Real Dashboard**  
+5. Attacker actions are logged and analyzed  
+6. Admin can monitor threats in real time  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗️ System Architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend:** React + Vite + Tailwind CSS  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB  
+- **Security:** JWT Authentication + Behavior Analysis  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📁 Project Structure
+
+```bash
+Sentinel-Shield/
+│
+├── client/           # Frontend (React)
+├── server/           # Backend (Node.js + Express)
+├── models/           # Database schemas
+├── routes/           # API routes
+├── controllers/      # Logic handling
+├── middleware/       # Authentication & security
+├── utils/            # Helper functions
+└── README.md
 ```
+⚙️ Installation
+git clone https://github.com/your-username/sentinel-shield.git
+cd sentinel-shield
+Install dependencies
+# Backend
+cd server
+npm install
 
-**Edit a file directly in GitHub**
+# Frontend
+cd ../client
+npm install
+▶️ Run the Project
+# Start backend
+cd server
+npm start
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Start frontend
+cd client
+npm run dev
 
-**Use GitHub Codespaces**
+📊 Key Modules
+🔐 Authentication System
+🧠 Behavior Analysis Engine
+🪤 Decoy Environment (Honeypot)
+📈 Admin Dashboard (Threat Analytics)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+💡 Applications
+Enterprise security systems
+Intrusion detection systems
+Cybersecurity research
+Honeypot-based threat analysis
 
-## What technologies are used for this project?
+🚧 Future Enhancements
+AI-based threat prediction
+Integration with SIEM tools
+Advanced attacker classification
+Real-time alerts and notifications
+Cloud deployment with scalability
 
-This project is built with:
+⚠️ Limitations
+Requires training data for better accuracy
+Initial setup complexity
+May produce false positives
+🏁 Conclusion
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Sentinel Shield demonstrates a proactive approach to cybersecurity by combining behavioral analysis and deception techniques. It enhances system security by identifying and isolating malicious users before they can cause harm.
 
-## How can I deploy this project?
+👩‍💻 Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Sanjana Anil Naik
+Cybersecurity Enthusiast | Full Stack Developer
